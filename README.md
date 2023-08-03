@@ -1,4 +1,4 @@
-# hello_world
+# Simple E-Commerce App
 
 A new Flutter project.
 
