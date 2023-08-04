@@ -1,7 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:hello_world/Dio/apiProvider.dart';
-import 'package:hello_world/model/productModel.dart';
 
 class ElectronicDetails extends StatefulWidget {
   const ElectronicDetails({super.key});
@@ -11,20 +9,6 @@ class ElectronicDetails extends StatefulWidget {
 }
 
 class _ElectronicDetailsState extends State<ElectronicDetails> {
-//        bool isloading=true;
-//  ProductModel ? productModel;
-//   getProducts() async {
-//      productModel=await APIProvider().getProducts();
-//     setState(() {
-//       isloading=false;
-//     });
-//  }
-
-//   @override
-//   void initState() {
-//     getProducts();
-//     super.initState();
-//   }
 
   final _detailStream =FirebaseFirestore.instance.collection('categories').doc('XWMIQ1OD5UhhOwDdGO6k')
  .collection('products').snapshots();

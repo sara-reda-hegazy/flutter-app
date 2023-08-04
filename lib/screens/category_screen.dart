@@ -2,8 +2,6 @@
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:hello_world/Dio/apiProvider.dart';
-import 'package:hello_world/model/categoryModel.dart';
  
 
 class CategoryScreen extends StatefulWidget {
@@ -104,77 +102,4 @@ Widget build(BuildContext context) {
 
 
 
- // @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//        appBar: AppBar(
-//         backgroundColor: Colors.lightBlue,
-//         title:const Center(child: Text("Categories",style:TextStyle(fontWeight: FontWeight.bold),)),
-//       ),
-//       body:isloading?const CircularProgressIndicator():  
-//        Column(
-//         children: [
-//            Row(
-//              mainAxisAlignment: MainAxisAlignment.start,
-//              crossAxisAlignment: CrossAxisAlignment.start,
-//             children: [
-//               Image.network("${categoryModel?.image}",height: 150,width: 150, ),
-//              const SizedBox(width:20,),
-              
-//               Padding(
-//                 padding: const EdgeInsets.only(top: 50),
-//                 child: MaterialButton(
-//                   color: Colors.lightBlue,
-//                     onPressed:(){   
-//                        Navigator.of(context).pushNamed("products");
-//                               } ,
-//                   child: Text("${categoryModel?.name}",
-//                   style:const TextStyle(fontSize:20,fontWeight: FontWeight.bold,color: Colors.white),),),
-//               ),
-//             ],
-//           )
-                
-          
-//         ],
-          
-//            )
-//     ) ; 
-//  }
-//}
-//==============
-
-// Image.network(docs[index]['image'],
-//                             height: 150,width: 150,
-//                             ),
-
-
-//===============
-// Column(
-//                     children: [
-//                       Row(
-//                         children: [
-//                           CircleAvatar(
-//                             backgroundImage: NetworkImage(docs[index]['image']),
-//                             radius: 60,
-                            
-//                             ),
-//                         const  SizedBox(width: 20,),
-//                                  Padding(
-//                                padding: const EdgeInsets.only(top: 50),
-//                                child: MaterialButton(
-//                                          color: Colors.lightBlue,
-//                                           onPressed:(){   
-//                        Navigator.of(context).pushNamed("products");
-//                               } ,
-//                                          child: Text(docs[index]['name'],
-//                                         style:const TextStyle(fontSize:20,fontWeight: FontWeight.bold,color: Colors.white,
-//                                         ),
-//                                         ),
-//                                ),
-//                                  ),
-                                        
-//                         ],
-//                       )
-//                     ],
-//                   );
-                  
+ 

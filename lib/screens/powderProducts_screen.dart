@@ -1,8 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:hello_world/Dio/apiProvider.dart';
-import 'package:hello_world/model/productModel.dart';
 
 class WashingPowderScreen extends StatefulWidget {
   const WashingPowderScreen({super.key});

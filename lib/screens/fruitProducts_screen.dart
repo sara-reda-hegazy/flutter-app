@@ -1,8 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:hello_world/Dio/apiProvider.dart';
-import 'package:hello_world/model/productModel.dart';
 
 class FruitScreen extends StatefulWidget {
   const FruitScreen({super.key});
@@ -13,20 +10,6 @@ class FruitScreen extends StatefulWidget {
 
 class _FruitScreenState extends State<FruitScreen> {
 
-//      bool isloading=true;
-//  ProductModel ? productModel;
-//   getProducts() async {
-//      productModel=await APIProvider().getProducts();
-//     setState(() {
-//       isloading=false;
-//     });
- // }
-
-  // @override
-  // void initState() {
-  //   getProducts();
-  //   super.initState();
-  // }
 
   final _fruitStream =FirebaseFirestore.instance.collection('categories').doc('srWMOWKD4frYyYSNrTIH')
   .collection('fruitProducts').snapshots();

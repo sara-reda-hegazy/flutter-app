@@ -12,7 +12,6 @@ class IntoScreen extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 20,vertical: 25),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            //crossAxisAlignment: CrossAxisAlignment.center,
             children: [
              const SizedBox(),
               Image.asset("images/welcome.jpg"),
@@ -21,7 +20,6 @@ class IntoScreen extends StatelessWidget {
                 width: double.infinity,
                  child: MaterialButton(
                   onPressed: (){
-                   // Navigator.of(context).push(route)
                    Navigator.of(context).pushNamed("login");
                   },
                   shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(25)),

@@ -99,18 +99,6 @@ class _HomeScreenState extends State<HomeScreen> {
                                       fit: BoxFit.cover,
                                       ),
                                   ),
-                                 // child: Column(
-                                 //   mainAxisAlignment: MainAxisAlignment.center,
-                                 //   crossAxisAlignment: CrossAxisAlignment.center,
-                                 //   children: [
-                                    // Image.network( docs[index]['image'],width:150,height: 150,),
-                                     //const SizedBox(width:15,),
-                                    //  Text(docs[index]['name'],
-                                    //  style:const TextStyle(fontWeight: FontWeight.bold,fontSize: 20),
-                                    //  ),
-                                   
-                                   // ],
-                                //  ),
                                 ),
                                 
                               ],

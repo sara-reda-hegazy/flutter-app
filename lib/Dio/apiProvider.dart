@@ -1,7 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:dio/dio.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter/foundation.dart';
 import 'package:hello_world/model/categoryModel.dart';
 import 'package:hello_world/model/developerModel.dart';
 import 'package:hello_world/model/productModel.dart';
@@ -9,8 +8,7 @@ import 'package:hello_world/model/productModel.dart';
  
 import 'package:hello_world/model/userModel.dart';
  
- 
-//.doc(userModel.email)
+  
 class APIProvider
 {
  
@@ -98,6 +96,7 @@ return developerModel;
   if(e is DioException) {
     print( e.response);
   }
+  
   }
 }
 
